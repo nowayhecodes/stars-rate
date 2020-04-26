@@ -15,8 +15,15 @@ Star.propTypes = {
 export default class StarRating extends Component {
   constructor(props) {
     super(props);
-    this.state = { starsSelected: 0 };
+    this.state = { starsSelected: props.starsSelected || 0 };
     this.change = this.change.bind(this);
+  }
+
+  componentWillMount() {
+    const { starsSelected } = this.props;
+    if (starsSelected) {
+      this.setState({ starsSelected });
+    }
   }
 
   change(starsSelected) {
