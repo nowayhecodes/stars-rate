@@ -23,6 +23,9 @@
     "url": "git+https://github.com/nowayhecodes/star-rating.git"
   },
   "homepage": "https://github.com/nowayhecodes/star-rating#README.md",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
