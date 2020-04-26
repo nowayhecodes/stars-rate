@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/nowayhecodes/star-rating#README.md",
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "webpack-node-externals": "^1.7.2"
   },
