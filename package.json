@@ -1,5 +1,5 @@
 {
-  "name": "@nowayhecodes/stars-rating",
+  "name": "@nowayhecodes/stars-rate",
   "version": "1.0.1",
   "description": "A star rating React component",
   "main": "dist/main.js",
