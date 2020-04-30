@@ -1,6 +1,6 @@
 {
-  "name": "star-rating",
-  "version": "1.0.0",
+  "name": "@nowayhecodes/stars-rating",
+  "version": "1.0.1",
   "description": "A star rating React component",
   "main": "dist/main.js",
   "scripts": {
@@ -20,9 +20,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nowayhecodes/star-rating.git"
+    "url": "git+https://github.com/nowayhecodes/stars-rate.git"
   },
-  "homepage": "https://github.com/nowayhecodes/star-rating#README.md",
+  "homepage": "https://github.com/nowayhecodes/stars-rate#README.md",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
