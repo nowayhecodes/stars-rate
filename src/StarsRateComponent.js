@@ -30,7 +30,7 @@ const StarsRate = ({
   );
 };
 
-StarRating.propTypes = { totalStars: PropTypes.number };
-StarRating.defaultProps = { totalStars: 5 };
+StarsRate.propTypes = { totalStars: PropTypes.number };
+StarsRate.defaultProps = { totalStars: 5 };
 
 export default StarsRate;
